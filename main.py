@@ -9,5 +9,7 @@ palavra_escolhida = list(random.choice(word_list))
 print(palavra_escolhida)
 guess = input("Diga uma letra que tenha na palvra? = ").lower()
 print(guess)
-if guess in palavra_escolhida:
-    print("ok letra correta")
+for letra in palavra_escolhida:
+    if letra == guess:
+        print(guess)
+    else: print("foi mal")
