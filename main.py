@@ -5,7 +5,9 @@ word_list = ["aardvark", "baboon", "camel"]
 #TO-2 - Peça ao usuário que adivinhe uma letra e atribua sua resposta a uma variável chamada guess. Faça adivinhar minúsculas.
 
 #T-3 - Verifique se a letra que o usuário adivinhou é uma das letras da palavra escolhida.
-palavra_escolhida = random.choice(word_list)
+palavra_escolhida = list(random.choice(word_list))
 print(palavra_escolhida)
 guess = input("Diga uma letra que tenha na palvra? = ").lower()
 print(guess)
+if guess in palavra_escolhida:
+    print("ok letra correta")
