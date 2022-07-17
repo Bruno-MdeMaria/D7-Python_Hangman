@@ -1,2 +1,2 @@
-# D7-Python_Jogo_da_Forca
- Jogo da Forca 
+# D7-Python_Hangman
+ Jogo da Forca - testes randomicos e loops
