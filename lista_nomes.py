@@ -1,3 +1,2 @@
-
-word_list = ["camelo", "elefante", "gato"]
+word_list = ("abelha;aranha;avestruz;baleia;boi;borboleta;burro;cachorro;camelo;cascavel;castor;cavalo;cegonha;chinchila;;coala;cobra;coelho;coiote;coruja;crocodilo;dinossauro;elefante;esquilo;flamingo;golfinho;gorila;guaxinim;hiena;jabuti;jaguar;javali;lagarta;lagartixa;lagarto;lagosta;lobo;lontra;macaco;mamute;marimbondo;mariposa;marisco;marmota;marreco;merluza;minhoca;morcego;moreia;morsa;mula;narceja;onça;orangotango;orca;ornitorrinco;ostra;ouriço;ovelha;panda;pantera;papagaio;pardal;pato;peixe;pelicano;percevejo;perereca;periquito;peru;pinguim;piranha;pirarucu;polvo;pombo;porco;quati;raposa;;rinoceronte;sagui;salamandra;sanguessuga;sapo;sardinha;serpente;sucuri;suricate;surubi;tainha;tamboril;tartaruga;tatu;texugo;tigre;tordo;toupeira;touro;tritão;truta;tucano;urso;urubu;vaca;veado;vespa;zebra").split(";")
 
